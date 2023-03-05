@@ -1,6 +1,6 @@
 module "vpc_network"{
     source = "git::https://github.com/maniksde/TerraformModule.git"
-    project = "o-media-practice"
+    project = "o-media-2"
     region = "us-central1"
     vpc_network = "manik-repo-practice-vpc"
     auto_create_subnetworks = false
