@@ -1,5 +1,5 @@
 module "vpc_network"{
-    source = "git::https://github.com/maniksde/TerraformModule.git"
+    source = "git::https://github.com/maniksde/termod.git"
     project = "o-media-2"
     region = "us-central1"
     vpc_network = "manik-repo-practice-vpc"
