@@ -1,1 +1,4 @@
-git config --global url."https://oauth2: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@github.com".insteadOf https://github.com
+cat ~/.gitconfig
+
+[url "https://oauth2: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@gitlab.com"]
+	insteadOf = https://gitlab.com
